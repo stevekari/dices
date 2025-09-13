@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice</title>
+
+    <style>
+      body {
+        text-align: center;
+      }
+      .container {
+        width: 350px;
+        text-align: center;
+        margin: 200px auto;
+        height: 47vh;
+        padding: 10px;
+        box-shadow: 1px 2px 1px 5px #c3c2c2;
+        border-radius: 10px;
+        position: relative;
+      }
+
+      .container:hover {
+        box-shadow: 2px 2px 3px 5px gainsboro;
+      }
+
+      button {
+        width: 350px;
+        background-color: #30a630;
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        margin-top: 20px;
+     
+      }
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+      }
+
+      .txt {
+        color: red;
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+      .btn-reset{
+        position: relative;
+        /* margin-bottom: 50%; */
+        text-align: center;
+        top: 10px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rolling A Dice</h1>
+      <button>ROLL</button>
+
+      <div id="inn"></div>
+      <button class="btn-reset" id="reset">Reset</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
